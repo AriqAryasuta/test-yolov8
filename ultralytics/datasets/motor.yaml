@@ -4,6 +4,9 @@ val: /kaggle/input/yolov8multi/images/val
 
 nc: 2
 
+labels_list:
+  - det_annot
+
 names:
   0: car
   1: motor
