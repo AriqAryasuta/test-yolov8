@@ -3,7 +3,7 @@
 
 # Parameters
 ######Jiayuan
-tnc: 2  # number of classes
+tnc: 4  # number of classes
 #######
 scales: # model compound scaling constants, i.e. 'model=yolov8n.yaml' will call yolov8.yaml with scale 'n'
   # [depth, width, max_channels]
@@ -95,7 +95,7 @@ head:
 # tasks
   - [[15, 18, 21], 1, Detect, [2]]  # 36 Detect(P3, P4, P5)
 
-  # - [[45], 1, Segment, [1, 32, 256]]  # 37 drivable-Segment [1,32,256] was not working, you should change the head.py
+  - [[45], 1, Segment, [1, 32, 256]]  # 37 drivable-Segment [1,32,256] was not working, you should change the head.py
   
-  # - [[33], 1, Segment, [1, 32, 256]]  # 38 lane-Segment [1,32,256] was not working, you should change the head.py
+  - [[33], 1, Segment, [1, 32, 256]]  # 38 lane-Segment [1,32,256] was not working, you should change the head.py
 

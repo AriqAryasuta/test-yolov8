@@ -12,17 +12,18 @@ val: /kaggle/input/yolov8multi/images/val  # val images for object detection (re
 test: /kaggle/input/yolov8multi/images/val  # test images for object detection (relative to 'path')
 
 labels_list:
-  - det_annot
-
-tnc: 2 # number of classes
-nc_list: [2]
+  - detection-object
+  - seg-drivable
+  - seg-lane
+tnc: 4 # number of classes
+nc_list: [2,1,1]
 map: [None,{'10':'0'},{'11':'0'}]
 
 # Classes for all tasks
 names:
-  0: car
-  1: motor
-  2: people
+  0: person
+  1: rider
+  2: car
   3: bus
   4: truck
   5: bike
