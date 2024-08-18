@@ -1,0 +1,9 @@
+path: /kaggle/input/yolov8multi/images
+train: /kaggle/input/yolov8multi/images/train
+val: /kaggle/input/yolov8multi/images/val
+
+nc: 2
+
+names:
+  0: car
+  1: motor
