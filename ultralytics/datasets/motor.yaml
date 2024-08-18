@@ -2,7 +2,7 @@ path: /kaggle/input/yolov8multi/images
 train: /kaggle/input/yolov8multi/images/train
 val: /kaggle/input/yolov8multi/images/val
 
-nc: 2
+tnc: 2
 
 labels_list:
   - det_annot
