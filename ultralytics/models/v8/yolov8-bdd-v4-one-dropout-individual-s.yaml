@@ -95,7 +95,7 @@ head:
 # tasks
   - [[15, 18, 21], 1, Detect, [2]]  # 36 Detect(P3, P4, P5)
 
-  - [[45], 1, Segment, [1, 32, 256]]  # 37 drivable-Segment [1,32,256] was not working, you should change the head.py
+  # - [[45], 1, Segment, [1, 32, 256]]  # 37 drivable-Segment [1,32,256] was not working, you should change the head.py
   
-  - [[33], 1, Segment, [1, 32, 256]]  # 38 lane-Segment [1,32,256] was not working, you should change the head.py
+  # - [[33], 1, Segment, [1, 32, 256]]  # 38 lane-Segment [1,32,256] was not working, you should change the head.py
 
