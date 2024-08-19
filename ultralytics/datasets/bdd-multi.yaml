@@ -13,8 +13,8 @@ test: images/val # test images for object detection (relative to 'path')
 
 labels_list:
   - detection-object
-  # - seg-drivable-10
-  # - seg-lane-11
+  - seg-drivable-10
+  - seg-lane-11
 
 tnc: 4 # number of classes
 nc_list: [2,1,1]
